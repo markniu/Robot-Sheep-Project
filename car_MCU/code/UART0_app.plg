@@ -1,0 +1,46 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Project:</h2>
+G:\android\tigermcu\STC12C5A60S2-´®¿Ú1-´®¿Ú2-²âÊÔ³ÌÐò\UART0_app.uvproj
+Project File Date:  11/11/2015
+
+<h2>Output:</h2>
+Build target 'Target 1'
+compiling PWMn.c...
+PWMN.C(34): warning C280: 'high': unreferenced local variable
+PWMN.C(142): warning C280: 'i': unreferenced local variable
+compiling mcu_Rsheep.c...
+mcu_Rsheep.c(9): warning C317: attempt to redefine macro 'MAIN_Fosc'
+MCU_RSHEEP.C(115): warning C259: pointer: different mspace
+MCU_RSHEEP.C(120): warning C259: pointer: different mspace
+MCU_RSHEEP.C(339): warning C280: 'j': unreferenced local variable
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_PWM0_SETHIGHREG?PWMN
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_PWM1_SETHIGHREG?PWMN
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_PWMN_INIT?PWMN
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_MY_ATOI?PWMN
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_MYSTRLEN?PWMN
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_REVER?PWMN
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_MY_ITOA?PWMN
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?TIME0_INIT?MCU_RSHEEP
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?START_TIMEOUT1MS?MCU_RSHEEP
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?START_TIMEOUT5MS?MCU_RSHEEP
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?STOP_TIMEOUT?MCU_RSHEEP
+Program Size: data=15.3 xdata=469 code=5353
+creating hex file from "UART0_app"...
+"UART0_app" - 0 Error(s), 17 Warning(s).
+Clean started: Project: 'UART0_app'
+   deleting intermediate output files for target 'Target 1'
