@@ -14,6 +14,8 @@
 
 	<script src="js/jquery.ui.touch-punch.js"></script>
 	<script src="js/jquery.mobile-1.4.5.js"></script>
+	<script src="js/robot.js"></script>
+	
 <style>
 .box{
 	position:fixed;
@@ -63,28 +65,28 @@ video.loading {
 	    position: absolute;
 	}
 
-	img#b1 {
+	img#c_front {
 	    top: 0%; left: 37%;
 	    nav-index: 1;
 	    nav-right: #b2; nav-left: #b4;
 	    nav-down: #b2; nav-up: #b4;
 	}
 
-	img#b2 {
+	img#c_right {
 	    top: 37%; left: 74%;
 	    nav-index: 2;
 	    nav-right: #b3; nav-left: #b1;
 	    nav-down: #b3; nav-up: #b1;
 	}
 
-	img#b3 {
+	img#c_back {
 	    top: 74%; left: 37%;
 	    nav-index: 3;
 	    nav-right: #b4; nav-left: #b2;
 	    nav-down: #b4; nav-up: #b2;
 	}
 
-	img#b4 {
+	img#c_left {
 	    top: 37%; left: 0%;
 	    nav-index: 4;
 	    nav-right: #b1; nav-left: #b3;
@@ -95,19 +97,7 @@ video.loading {
     </style>
 
 <script type="text/javascript">
-    $(document).ready(function()
-    {
-     //	document.getElementsByTagName("remote-video").setAttribute('controls', 'true'); 
-    //	document.getElementById("remote-video").removeAttribute('controls'); 
 
-	$('#pointsx').change(function() {
-      		x_send();
-	});		
-	$('#pointsy').change(function() {
-      		y_send();
-	});		
-
-    });
 
 </script>
 
@@ -161,7 +151,7 @@ video.loading {
 
 	
 		 
-		<video    muted    controls ="controls" width="320" height="320" id="remote-video" autoplay  >
+		<video   controls ="controls" width="320" height="320" id="remote-video" autoplay  >
 			
 		</video>
 		
@@ -201,10 +191,10 @@ video.loading {
 	 <div data-role="footer" data-position="fixed" data-fullscreen="true">
 		<div   class="w3-form w3-card-4 ui-widget-content" style="position: absolute; top:-120px;right: 0px; width:120px;height:120px">
 
-			<img  data-role="none" style="transform:rotate(-90deg);" src="images/arrow.png"  id="b1" onclick="car_runhi()"> </img>
-			<img  data-role="none"   src="images/arrow.png" id="b2" onclick="car_right()">  </img>
-			<img  data-role="none" style="transform:rotate(-270deg);" src="images/arrow.png"  id="b3" onclick="car_back()"> </img>
-			<img  data-role="none"  style="transform:rotate(-180deg);" src="images/arrow.png"  id="b4" onclick="car_left()"> </img>			 
+			<img  data-role="none" style="transform:rotate(-90deg);" src="images/arrow.png"  id="c_front"> </img>
+			<img  data-role="none"   src="images/arrow.png" id="c_right"  >  </img>
+			<img  data-role="none" style="transform:rotate(-270deg);" src="images/arrow.png"  id="c_back" > </img>
+			<img  data-role="none"  style="transform:rotate(-180deg);" src="images/arrow.png"  id="c_left" > </img>			 
 		</div>
 		 
 		      <nav class="w3-topnav  ">
@@ -235,7 +225,7 @@ video.loading {
 			</div>	 
 			<button    data-role="none" onclick="wakup_call_t(); " class="w3-btn w3-green">&nbsp&nbsp&nbspCall&nbsp&nbsp&nbsp</button>
 			<button    data-role="none" onclick="hangup()"  class="w3-btn w3-red">Hang-up</button>
-			<a      data-role="none" class="w3-btn w3-green " href="#login_chat">Change ID</a>
+			<a      data-role="none" class="w3-btn w3-green " href="#login_chat">Set</a>
  	
 
 	    	   
