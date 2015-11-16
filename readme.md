@@ -8,12 +8,14 @@ it can control a robot remotely while the robot connect to the remote phone with
 
 you can change its code or add your html5 code into it.
 
+![](https://github.com/luojin012/Robot-Sheep-Project/blob/master/doc/remote50.jpg)
+
 car_MCU: 
 
 MCU C code, can control the motors, control actuators  
 
-doc:
+![](https://github.com/luojin012/Robot-Sheep-Project/blob/master/doc/Rsheep_3.jpg)
 
+doc:
 documents
 
-![](https://github.com/luojin012/Robot-Sheep-Project/blob/master/doc/remote5.jpg)
