@@ -14,7 +14,9 @@ car_MCU:
 
 MCU C code, can control the motors, control actuators  
 
-![](https://github.com/luojin012/Robot-Sheep-Project/blob/master/doc/Rsheep_3.jpg)![](https://github.com/luojin012/Robot-Sheep-Project/blob/master/doc/Rsheep_4.jpg)
+![](https://github.com/luojin012/Robot-Sheep-Project/blob/master/doc/Rsheep_3.jpg)
+
+![](https://github.com/luojin012/Robot-Sheep-Project/blob/master/doc/Rsheep_4.jpg)
 
 doc:
 documents
